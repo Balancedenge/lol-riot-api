@@ -37,6 +37,11 @@
   "engines": {
     "node": "20.x"
   },
+  "overrides": {
+    "braces": "^3.0.3",
+    "semver": "^7.5.4",
+    "undici": "^5.28.4"
+  },
   "keywords": [
     "league of legends",
     "lol",
