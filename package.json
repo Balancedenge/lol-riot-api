@@ -27,7 +27,7 @@
     "cors": "2.8.3",
     "expandjs": "1.1.0",
     "express": "4.19.2",
-    "express-rate-limit": "7.4.1",
+    "express-rate-limit": "6.7.0",
     "fs-extra": "11.2.0",
     "helmet": "7.1.0",
     "inquirer": "8.2.6",
@@ -36,11 +36,6 @@
   },
   "engines": {
     "node": "20.x"
-  },
-  "overrides": {
-    "braces": "^3.0.3",
-    "semver": "^7.5.4",
-    "undici": "^5.28.4"
   },
   "keywords": [
     "league of legends",
@@ -51,5 +46,9 @@
   "scripts": {
     "start": "node index.js",
     "resetconfig": "node resetconfig.js"
+  },
+  "overrides": {
+    "braces": "^3.0.3",
+    "semver": "^7.5.4"
   }
 }
